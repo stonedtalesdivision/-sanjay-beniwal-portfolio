@@ -1,0 +1,211 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sanjay Beniwal — Software Engineer portfolio. Web development, interactive systems and AI-assisted engineering.">
+  <title>Sanjay Beniwal — Software Engineer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#top">SB<span>.</span></a>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#about">About</a>
+      <a class="nav-cta" href="mailto:beniwalssanjay@gmail.com">Contact</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section">
+      <div class="hero-copy">
+        <p class="eyebrow">SOFTWARE ENGINEER · INDIA</p>
+        <h1>I build practical software and interactive systems.</h1>
+        <p class="lead">
+          I’m Sanjay Beniwal, a self-directed software developer with an engineering background,
+          focused on web development, game systems, debugging and AI-assisted engineering.
+        </p>
+        <div class="actions">
+          <a class="button primary" href="#projects">View projects</a>
+          <a class="button secondary" href="mailto:beniwalssanjay@gmail.com">Get in touch</a>
+        </div>
+        <div class="quick-links">
+          <a href="https://github.com/stonedtalesdivision" target="_blank" rel="noreferrer">GitHub ↗</a>
+          <a href="mailto:beniwalssanjay@gmail.com">Email ↗</a>
+          <a href="Sanjay_Beniwal_Software_Engineer_Resume_Final.pdf" target="_blank">Resume ↗</a>
+        </div>
+      </div>
+      <div class="hero-card">
+        <div class="terminal">
+          <div class="terminal-top"><span></span><span></span><span></span></div>
+          <pre><code><b>developer</b>: sanjay
+focus: software engineering
+stack:
+  JavaScript
+  C#
+  HTML / CSS
+  Unity
+  Unreal Engine 5
+  Git / GitHub
+workflow:
+  build → test → debug → improve</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">SELECTED WORK</p>
+        <h2>Projects that show how I think.</h2>
+      </div>
+
+      <article class="project featured">
+        <div class="project-meta">
+          <span>01</span><span>WEB APPLICATION</span>
+        </div>
+        <h3>SONGISTAN</h3>
+        <p class="project-sub">Music discovery & playback platform</p>
+        <p>
+          A deployed web application built around playlist discovery and playback. I worked through
+          frontend behaviour, YouTube API integration, persistent playback state, deployment and
+          production debugging.
+        </p>
+        <div class="tags">
+          <span>JavaScript</span><span>HTML</span><span>CSS</span><span>YouTube API</span><span>Deployment</span>
+        </div>
+        <div class="project-links">
+          <a href="https://songistan.onrender.com/" target="_blank" rel="noreferrer">Live demo ↗</a>
+          <a href="https://github.com/stonedtalesdivision" target="_blank" rel="noreferrer">GitHub ↗</a>
+        </div>
+      </article>
+
+      <div class="project-grid">
+        <article class="project">
+          <div class="project-meta"><span>02</span><span>GAME SYSTEMS</span></div>
+          <h3>AMRIT: 187</h3>
+          <p class="project-sub">Mobile-first third-person action game</p>
+          <p>
+            A large-scale game systems project exploring character switching, AI partners, combat,
+            enemy behaviour and companion AI. The project is currently in pre-production/prototype planning.
+          </p>
+          <div class="tags">
+            <span>Unreal Engine 5</span><span>C++</span><span>Blueprints</span><span>AI Systems</span>
+          </div>
+          <a class="text-link" href="#amrit">View technical case study ↓</a>
+        </article>
+
+        <article class="project">
+          <div class="project-meta"><span>03</span><span>ENGINEERING WORKFLOW</span></div>
+          <h3>AI-ASSISTED DEVELOPMENT</h3>
+          <p class="project-sub">Build → inspect → test → debug</p>
+          <p>
+            I use AI to accelerate implementation, investigate unfamiliar code and explore solutions,
+            while validating generated code through testing, debugging and project-specific constraints.
+          </p>
+          <div class="tags">
+            <span>Prompting</span><span>Debugging</span><span>Code Review</span><span>Rapid Prototyping</span>
+          </div>
+          <a class="text-link" href="#workflow">See workflow ↓</a>
+        </article>
+
+        <article class="project">
+          <div class="project-meta"><span>04</span><span>COMING NEXT</span></div>
+          <h3>DEVELOPER TASK MANAGER</h3>
+          <p class="project-sub">Backend / API engineering project</p>
+          <p>
+            Planned portfolio project focused on REST APIs, CRUD operations, validation, authentication,
+            persistence, error handling and tests.
+          </p>
+          <div class="tags">
+            <span>Node.js</span><span>REST</span><span>Database</span><span>Testing</span>
+          </div>
+          <span class="status">Planned</span>
+        </article>
+      </div>
+    </section>
+
+    <section id="amrit" class="case section">
+      <div class="section-heading">
+        <p class="eyebrow">TECHNICAL CASE STUDY</p>
+        <h2>AMRIT: 187</h2>
+      </div>
+      <div class="case-layout">
+        <div>
+          <p class="large">
+            The project is designed around a smartphone-first third-person combat loop where the player
+            can switch between two active characters while an AI partner supports the player.
+          </p>
+        </div>
+        <div class="case-points">
+          <div><b>Character switching</b><span>Player and AI control states transfer without loading.</span></div>
+          <div><b>Partner AI</b><span>Follow, combat, protect and revive behaviours using a Behaviour Tree / Blackboard architecture.</span></div>
+          <div><b>Companion AI</b><span>Sugar has distinct follow, detect, warn, weak-target attack and strong-target retreat states.</span></div>
+          <div><b>Production discipline</b><span>Prototype the core interaction before investing in a huge world or final content.</span></div>
+        </div>
+      </div>
+      <p class="disclaimer">Status: pre-production / prototype planning. The Unreal implementation is not presented as completed production work.</p>
+    </section>
+
+    <section id="workflow" class="section workflow">
+      <div class="section-heading">
+        <p class="eyebrow">HOW I WORK</p>
+        <h2>AI accelerates the work. Engineering validates it.</h2>
+      </div>
+      <div class="steps">
+        <div><span>01</span><h3>Define</h3><p>Turn a product idea or bug report into concrete technical requirements.</p></div>
+        <div><span>02</span><h3>Build</h3><p>Use conventional coding and AI-assisted implementation to move quickly.</p></div>
+        <div><span>03</span><h3>Inspect</h3><p>Read the generated code, question assumptions and identify failure cases.</p></div>
+        <div><span>04</span><h3>Test</h3><p>Run the software, reproduce problems and validate behaviour against the requirement.</p></div>
+        <div><span>05</span><h3>Improve</h3><p>Refactor, fix, document and iterate until the result works in the real project.</p></div>
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="section-heading">
+        <p class="eyebrow">TOOLKIT</p>
+        <h2>Technical skills</h2>
+      </div>
+      <div class="skills">
+        <div><h3>Languages</h3><p>JavaScript · C# · HTML5 · CSS3</p></div>
+        <div><h3>Development</h3><p>Git · GitHub · APIs · Debugging · Code review · Rapid prototyping</p></div>
+        <div><h3>Game</h3><p>Unity · Unreal Engine 5 · Gameplay systems · AI behaviour design</p></div>
+        <div><h3>AI</h3><p>AI-assisted coding · Prompt engineering · AI output evaluation · Technical problem decomposition</p></div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div>
+        <p class="eyebrow">ABOUT</p>
+        <h2>Engineering background, software focus.</h2>
+      </div>
+      <div>
+        <p>
+          I hold a B.Tech in Mechanical Engineering from Arya College of Engineering & IT,
+          affiliated with Rajasthan Technical University, Kota, graduating in 2017.
+        </p>
+        <p>
+          My software work has grown through self-directed projects, practical debugging,
+          web development, game systems and AI-assisted engineering. I enjoy taking an ambiguous
+          problem and turning it into a working, testable implementation.
+        </p>
+      </div>
+    </section>
+
+    <section class="contact section">
+      <p class="eyebrow">CONTACT</p>
+      <h2>Have a software problem worth solving?</h2>
+      <p>Let’s connect.</p>
+      <a class="button primary" href="mailto:beniwalssanjay@gmail.com">beniwalssanjay@gmail.com</a>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> Sanjay Beniwal</span>
+    <a href="https://github.com/stonedtalesdivision" target="_blank" rel="noreferrer">GitHub ↗</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
